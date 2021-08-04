@@ -85,13 +85,13 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
- 
+   imageMode(CENTER)
+  image(polygon_img,polygon.position.x,polygon.position.y,40,40);
   chain.display();
 
 }
 
-  imageMode(CENTER)
-  image(polygon_img,polygon.position.x,polygon.position.y,40,40);
+
 
 
 
