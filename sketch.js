@@ -53,8 +53,7 @@ function setup() {
 }
 function draw() {
   background(56,44,44); 
- 
-  display()
+
 
   textSize(20);
   fill("lightyellow");
